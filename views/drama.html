@@ -1,0 +1,92 @@
+<div class="row" ng-controller="drama">
+	<div class="col-lg-12">
+		<h1 class="page-header">{{title}}</h1>
+	</div>
+	
+	
+	<!-- /.col-lg-12 -->
+	</div>
+	<!-- /.row -->
+	<div class="row">
+		<div ng-repeat="val in response">
+			<div class="col-lg-4 col-md-6">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-lg-12">
+								{{val.Title}}
+							</div>
+						</div>
+					</div>
+					<div class="panel-body">
+						<div class="col-lg-12 image"><img src={{val.Poster}} width="100" height="200"></div>
+						<div class="col-lg-12">Year: <span>{{val.Year}}</span></div>
+						<div class="col-lg-12">Genre: <span>{{val.imdbID}}</span></div>
+						<div class="col-lg-12">Director: <span>{{val.Type}}</span></div>
+						<div class="col-lg-12">Actors: <span>{{val.imdbID}}</span></div>
+						<div class="col-lg-12">Plot: <span>{{val.Year}}</span></div>
+					</div>
+					<div class="panel-footer">
+						<a href="#">
+							<span class="pull-left">View Details</span>
+							<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+							<div class="clearfix"></div>
+						</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	<!--
+	<div class="col-lg-4 col-md-6">
+		<div class="panel panel-green">
+			<div class="panel-heading">
+				<div class="row">
+					<div class="col-lg-12">
+						The Dark Knight
+					</div>
+				</div>
+			</div>
+			<div class="panel-body">
+				<div class="col-lg-12">Year: <span>2008</span></div>
+				<div class="col-lg-12">Genre: <span>2008</span></div>
+				<div class="col-lg-12">Director: <span>2008</span></div>
+				<div class="col-lg-12">Actors: <span>2008</span></div>
+				<div class="col-lg-12">Plot: <span>2008</span></div>
+			</div>
+			<div class="panel-footer">
+				<a href="#">
+					<span class="pull-left">View Details</span>
+					<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+					<div class="clearfix"></div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6">
+		<div class="panel panel-yellow">
+			<div class="panel-heading">
+				<div class="row">
+					<div class="col-lg-12">
+						The Dark Knight
+					</div>
+				</div>
+			</div>
+			<div class="panel-body">
+				<div class="col-lg-12">Year: <span>2008</span></div>
+				<div class="col-lg-12">Genre: <span>2008</span></div>
+				<div class="col-lg-12">Director: <span>2008</span></div>
+				<div class="col-lg-12">Actors: <span>2008</span></div>
+				<div class="col-lg-12">Plot: <span>2008</span></div>
+			</div>
+			<div class="panel-footer">
+				<a href="#">
+					<span class="pull-left">View Details</span>
+					<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+					<div class="clearfix"></div>
+				</a>
+			</div>
+		</div>
+	</div>
+	-->
+	</div>
